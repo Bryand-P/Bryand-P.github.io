@@ -15,7 +15,7 @@ html{
 
 h2{
     font-family: 'Righteous';
-    color:#1d6493; 
+    color:rgb(2, 2, 55); 
     text-decoration: none;
     
 }
@@ -26,7 +26,7 @@ h2{
 
 /*Menu*/
 .contenedor-header{
-background:#252A2E;
+background:#e4b6da;
 position: fixed;
 width: 100%;
 top: 0;
@@ -46,7 +46,7 @@ z-index: 99;
 .contenedor-header header .logo a{
     font-family: 'Righteous';
     font-size: 36px;
-    color:#5DADE2;
+    color:black;
     text-decoration: none;
 
 }
@@ -58,7 +58,7 @@ z-index: 99;
 
 .contenedor-header header nav ul li a{
     text-align: none;
-    color: #fff;
+    color:black;
     margin: 0 15px;
     padding: 3px;
     transition: .5s;
@@ -83,16 +83,16 @@ z-index: 99;
 
 .inicio{
     background: url(Imagenes/Perros.webp);
-    background-size: cover;
+    background-size:cover;
     height: 100vh;
-    color: #fff;
+    color: black;
     display: flex;
     align-items: center;
 }
 
 .inicio .contenido-banner{
     padding: 20px;
-    background-color:#252A2E; ;
+    background-color:#6fb1e7; ;
     max-width: 350px;
     margin: auto;
     text-align: center;
@@ -119,7 +119,7 @@ z-index: 99;
     font-weight: normal;
 }
 .inicio .contenido-banner .redes a{
-    color: #fff;
+    color: rgb(2, 2, 55);
     display: inline-block;
     text-decoration: none;
     border: 1px solid #fff;
@@ -139,8 +139,8 @@ z-index: 99;
 
 /*SEGUNDA SECCION----SOBRE MI*/
 .sobremi{
-    background-color: #1e2326;
-    color: #fff;
+    background-color: #e4b6da;
+    color: black;
     padding: 50px 20px;
 }
 
@@ -164,7 +164,7 @@ z-index: 99;
 }
 
 .sobremi .contenido-seccion p span{
-    color: #5DADE2;
+    color: black;
     font-weight: bold;
 }
 
@@ -192,12 +192,12 @@ z-index: 99;
 
 .sobremi .fila .col ul li strong{
     display: inline-block;
-    color: #5DADE2;
+    color: rgb(2, 2, 55);
     width: 130px;
 }
 
 .sobremi .fila .col ul li span{
-    background-color: #5DADE2;
+    background-color: rgb(2, 2, 55);
     padding: 3px;
     font-weight: bold;
     border-radius: 5px;
@@ -211,7 +211,7 @@ z-index: 99;
 .sobremi .fila .col .contenedor-intereses .interes{
     width: 100px;
     height: 100px;
-    background-color: #252A2E;
+    background-color: rgb(130, 211, 230);
     border-radius: 10px;
     margin: 0 15px 15px 0;
     display: flex;
@@ -222,7 +222,7 @@ z-index: 99;
 }
 
 .sobremi .fila .col .contenedor-intereses .interes:hover{
-    background-color: #5DADE2;
+    background-color: #fff;
 }
 
 .sobremi .fila .col .contenedor-intereses .interes i{
@@ -313,11 +313,11 @@ z-index: 99;
   }
   
   .product button:hover {
-    background-color: #3e8e41;
+    background-color: #1db872;
   }
 
   .product .person{
-    background-color:red;
+    background-color:rgb(41, 19, 245);
   }
   
 
@@ -517,8 +517,8 @@ transition: 1s;
 
 .contacto{
     background-image: url(Imagenes/contact_bg.png);
-    background-color: #1e2326;
-    color:#fff;
+    background-color: #e4b6da;
+    color:black;
     padding: 50px 0;
 }
 
@@ -550,8 +550,8 @@ transition: 1s;
     padding: 18px;
     border: none;
     margin-bottom: 20px;
-    background-color: #252A2E;
-    color: #fff;
+    background-color:#fff;
+    color:black;
     font-size: 18px;
 }
 
@@ -564,7 +564,7 @@ transition: 1s;
     margin: 20px auto;
     padding: 10px 22px;
     font-size: 16px;
-    color: #fff;
+    color: black;
     position: relative;
     z-index: 10;
 }
@@ -591,7 +591,7 @@ transition: 1s;
 .contacto .col .info{
     position:absolute;
     top: 40%;
-    background-color: #252A2E;
+    background-color:#e4b6da;
     padding: 20px;
     max-width: 350px;
     left: 50%;
@@ -615,8 +615,8 @@ transition: 1s;
 /*FOOTER*/
 
 footer{
-background-color: #252A2E;
-color: #fff;
+background-color: #e4b6da;
+color: blue;
 padding: 50px 0 30px 0;
 text-align: center;
 position: relative;
@@ -628,7 +628,7 @@ footer .redes{
 }
 
 footer .redes a {
-    color: #fff;
+    color: blue;
     display: inline-block;
     text-decoration: none;
     border: 1px solid #fff;
@@ -726,17 +726,5 @@ footer .arriba{
         width: 100%;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 
