@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>PORTAFOLIO</title>
+
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--Menu HEADER-->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">PORTAFOLIO</a>
+
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">HABILIDADES</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">EDUCACIÒN</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">PROYECTOS</a></li>
+                   
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+               <i class="fa-solid fa-bars"></i> 
+            </div>
+
+        </header>
+    </div>
+
+    <!--Primera seccion-->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="./Imagenes/FOTO-BRY.jpg" alt="">
+            </div>
+            <h1>BRYAND PEÑA</h1>
+            <h2>Ingeniero de sistemas</h2>
+            <div class="redes">
+                <a href="https://www.facebook.com/bryandalejandro.pachecopena.75" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.linkedin.com/in/bryand-alejandro-pacheco-pe%C3%B1a-390658183?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3ByibXUUt6StOM5L3xr4OHTw%3D%3D" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://wa.me/3132493196" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+               
+                
+            </div>
+        </div>
+    </section>
+
+     <!--Segunda seccion---Sobre mi-->
+    
+     <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mí</h2>
+            <p><span>Hola, soy Bryand Alejandro Pacheco Peña,</span> Ingeniero de sistemas. Desde que descubrí el mundo de la programación me he dedicado a profundizar mis conocimientos en 
+        ella, bases de datos, arquitectura de software, entre otros en el área. Mi pasión por el desarrollo web me ha llevado a enfocar mi carrera en esta área, donde he trabajado en diferentes proyectos para aplicar mis conocimientos
+        y mejorar mis capacidades.  </p>
+
+            <div class="fila">
+                <!-- datos personales -->
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        
+                        <li>
+                            <strong>Teléfono</strong>
+                            3132493196
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                           pachecobryand1999@gmail.com
+                        </li>
+                       
+                        <li>
+                            <strong>Dirección</strong>
+                            La Arada Tolima
+                        </li>
+                        <li>
+                            <strong>Cargo</strong>
+                            <span>Desarrollador Web</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- intereses -->
+                <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>JUEGOS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>MUSICA</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-plane"></i>
+                            <span>VIAJAR</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-regular fa-film"></i>
+                            <span>CINE</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-futbol"></i>
+                            <span>DEPORTE</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-book"></i>
+                            <span>LIBROS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-motorcycle"></i>
+                            <span>MOTOS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-camera"></i>
+                            <span>FOTOS</span>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <a href="/CV-Bryand Alejandro Pacheco Peña_.pdf" download>
+            <button>
+                Descargar CV <i class="fa-solid fa-download"></i>
+                <span class="overlay"></span>
+            </button>
+            </a>
+        </div>
+    </section>
+
+    <!--Tercera  seccion---SKILLS-->
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2></h2>
+            <div class="fila">
+                <!--Skill tecnicas-->
+                <div class="col">
+                    <h3>Habilidades técnicas</h3>
+                    <div class="skill">
+                        <span>Javascript</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>JS</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <span>HTML</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>HTML</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <span>CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>CSS</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <span>React</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>RE</span>
+                            </div>
+                        </div>
+                    </div>
+                   
+
+                </div>
+
+                <!-- Skills profesionales-->
+
+                <div class="col">
+                    <h3>
+                        Habilidades blandas</h3>
+                    <div class="skill">
+                        <span>Comunicaciòn efectiva</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>CE</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <span>Trabajo en equipo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>TE</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <span>Creatividad</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>C</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <span>Dedicaciòn</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>D</span>
+                            </div>
+                        </div>
+                    </div>
+                   
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Cuarta  seccion---curriculum-->
+
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion"></div>
+            <h2>EDUCACIÒN</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    
+                    <div class="item izq">
+                        <h4>Tecnòlogo en gestiòn de bases de datos</h4>
+                        <span class="casa">Universidad del Tolima</span>
+                        <span class="fecha">28 de mayo de 2021</span>
+                       
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    
+                  
+                </div>
+
+                <div class="col derecha">
+                    
+                    <div class="item der">
+                        <h4>Ingenieria de sistemas</h4>
+                        <span class="casa">Universidad del Tolima</span>
+                        <span class="fecha">31 de marzo de 2023</span>
+                        
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+
+                  
+
+                    
+                </div>
+
+                
+            </div>
+        </div>
+    </section>
+
+    <!--Quinta  seccion---Portfolio-->
+    <section id="portfolio" class="portfolio">
+        <div class="contenido-seccion">
+            <h2>PROYECTOS</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <a href="https://murilloadventure.github.io/termalesdemurillo/">
+                        <img src="/Imagenes/murillo2.png" alt="">
+                        <div class="overlay">
+                            <h3>MURILLO ADVENTURE</h3>
+                            <p>Turismo</p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="proyecto">
+                    <a href="https://Bryand-P.github.io">
+                        <img src="/Imagenes/petslove.png" alt="">
+                        <div class="overlay">
+                            <h3>PETSLOVE</h3>
+                            <p>Tienda Mascotas</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="proyecto">
+                    <a href="https:">
+                        <img src="/Imagenes/p4" alt="">
+                        <div class="overlay">
+                            <h3>Cafeteria</h3>
+                            <p>CRUD</p>
+                        </div>
+                    </a>
+                </div>
+                
+               
+            </div>
+        </div>
+    </section>
+
+    
+
+    <!--FOOTER-->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class='bx bxs-up-arrow'></i>
+        </a>
+        <div class="redes">
+            <a href="https://www.facebook.com/bryandalejandro.pachecopena.75" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.linkedin.com/in/bryand-alejandro-pacheco-pe%C3%B1a-390658183?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3ByibXUUt6StOM5L3xr4OHTw%3D%3D" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="https://wa.me/3132493196" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+        </div>
+    </footer>
+    <script src="index.js"></script>
+
+
+</body>
+</html>
